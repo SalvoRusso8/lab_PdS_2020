@@ -82,22 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/DurationLogger.cpp">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/DurationLogger.cpp">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/DurationLogger.h">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/DurationLogger.h">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/Message.cpp">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/Message.cpp">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/Message.h">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/Message.h">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/MessageStore.cpp">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/MessageStore.cpp">
 			<Option target="lab1"/>
 		</Unit>
-		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/MessageStore.h">
+		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/MessageStore.h">
 			<Option target="lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/main.cpp">

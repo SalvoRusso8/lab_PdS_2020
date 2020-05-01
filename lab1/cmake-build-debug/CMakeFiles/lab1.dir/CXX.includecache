@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/DurationLogger.h
-string
--
-ctime
--
-
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/Message.h
-
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/MessageStore.h
-tuple
--
-functional
--
-experimental/optional
--
-Message.h
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/Message.h
-
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/main.cpp
-iostream
--
-cmake-build-debug/Message.h
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/Message.h
-cmake-build-debug/DurationLogger.h
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/DurationLogger.h
-cmake-build-debug/MessageStore.h
-C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab1/cmake-build-debug/MessageStore.h
-

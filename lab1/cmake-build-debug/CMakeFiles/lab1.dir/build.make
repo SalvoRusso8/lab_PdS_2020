@@ -70,43 +70,43 @@ CMakeFiles/lab1.dir/main.cpp.s: cmake_force
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\main.cpp" -o CMakeFiles\lab1.dir\main.cpp.s
 
 CMakeFiles/lab1.dir/Message.cpp.obj: CMakeFiles/lab1.dir/flags.make
-CMakeFiles/lab1.dir/Message.cpp.obj: Message.cpp
+CMakeFiles/lab1.dir/Message.cpp.obj: ../Message.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1.dir/Message.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\Message.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\Message.cpp"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\Message.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\Message.cpp"
 
 CMakeFiles/lab1.dir/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/Message.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\Message.cpp" > CMakeFiles\lab1.dir\Message.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\Message.cpp" > CMakeFiles\lab1.dir\Message.cpp.i
 
 CMakeFiles/lab1.dir/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/Message.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\Message.cpp" -o CMakeFiles\lab1.dir\Message.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\Message.cpp" -o CMakeFiles\lab1.dir\Message.cpp.s
 
 CMakeFiles/lab1.dir/DurationLogger.cpp.obj: CMakeFiles/lab1.dir/flags.make
-CMakeFiles/lab1.dir/DurationLogger.cpp.obj: DurationLogger.cpp
+CMakeFiles/lab1.dir/DurationLogger.cpp.obj: ../DurationLogger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab1.dir/DurationLogger.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\DurationLogger.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\DurationLogger.cpp"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\DurationLogger.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\DurationLogger.cpp"
 
 CMakeFiles/lab1.dir/DurationLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/DurationLogger.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\DurationLogger.cpp" > CMakeFiles\lab1.dir\DurationLogger.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\DurationLogger.cpp" > CMakeFiles\lab1.dir\DurationLogger.cpp.i
 
 CMakeFiles/lab1.dir/DurationLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/DurationLogger.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\DurationLogger.cpp" -o CMakeFiles\lab1.dir\DurationLogger.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\DurationLogger.cpp" -o CMakeFiles\lab1.dir\DurationLogger.cpp.s
 
 CMakeFiles/lab1.dir/MessageStore.cpp.obj: CMakeFiles/lab1.dir/flags.make
-CMakeFiles/lab1.dir/MessageStore.cpp.obj: MessageStore.cpp
+CMakeFiles/lab1.dir/MessageStore.cpp.obj: ../MessageStore.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/MessageStore.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\MessageStore.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\MessageStore.cpp"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab1.dir\MessageStore.cpp.obj -c "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\MessageStore.cpp"
 
 CMakeFiles/lab1.dir/MessageStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/MessageStore.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\MessageStore.cpp" > CMakeFiles\lab1.dir\MessageStore.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\MessageStore.cpp" > CMakeFiles\lab1.dir\MessageStore.cpp.i
 
 CMakeFiles/lab1.dir/MessageStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/MessageStore.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\cmake-build-debug\MessageStore.cpp" -o CMakeFiles\lab1.dir\MessageStore.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Salvo-fisso\Google Drive (russo.salvo1996@gmail.com)\Magistrale\I_anno\Programmazione_di_Sistema\Malnati\lab\2020\lab1\MessageStore.cpp" -o CMakeFiles\lab1.dir\MessageStore.cpp.s
 
 # Object files for target lab1
 lab1_OBJECTS = \

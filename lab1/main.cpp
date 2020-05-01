@@ -1,7 +1,7 @@
 #include <iostream>
-#include "cmake-build-debug/Message.h"
-#include "cmake-build-debug/DurationLogger.h"
-#include "cmake-build-debug/MessageStore.h"
+#include "Message.h"
+#include "DurationLogger.h"
+#include "MessageStore.h"
 
 
 int main() {

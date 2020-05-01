@@ -3,4 +3,4 @@ project(lab1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab1 main.cpp cmake-build-debug/Message.cpp cmake-build-debug/Message.h cmake-build-debug/DurationLogger.cpp cmake-build-debug/DurationLogger.h cmake-build-debug/MessageStore.cpp cmake-build-debug/MessageStore.h)
+add_executable(lab1 main.cpp Message.cpp Message.h DurationLogger.cpp DurationLogger.h MessageStore.cpp MessageStore.h)
