@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Base.h
+string
+-
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/D.h
+memory
+-
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Directory.cpp
+mutex
+-
+iostream
+-
+Directory.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Directory.h
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Directory.h
+memory
+-
+map
+-
+Base.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Base.h
+File.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/File.h
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/File.cpp
+iostream
+-
+File.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/File.h
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/File.h
+Base.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Base.h
+
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/main.cpp
+iostream
+-
+D.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/D.h
+Directory.h
+C:/Users/Salvo-fisso/Google Drive (russo.salvo1996@gmail.com)/Magistrale/I_anno/Programmazione_di_Sistema/Malnati/lab/2020/lab2/Directory.h
+
