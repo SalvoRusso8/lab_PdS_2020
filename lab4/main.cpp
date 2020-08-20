@@ -48,33 +48,36 @@ int main() {
 
     std::vector<std::thread> producers;
     std::vector<std::thread> consumers;
+    std::thread producer ([&jobs](){
+        int count=0;
+        std::string line;
 
-    namespace fs = std::filesystem;
-    for(auto& p: fs::directory_iterator("../files")){   //itero sui file nella cartella files per i produttori
-        //count_row.store(0);
-        std::string nameFile = p.path().filename(); //salvo il nome del file per metterlo eventualmente nella struttura
-        std::ifstream ifs(p.path());    //apro il file
-        std::cout << p.path() << std::endl;
-        if(!ifs.is_open()){
-            std::cout<<"unable to open file"<<std::endl;
-        }
-        //creo il thread che si occuperà di leggere per riga il file e salvarlo nei jobs
-        //std::thread t([&jobs,&ifs,nameFile](){
-            int count=0;
-            std::string line;
+        namespace fs = std::filesystem;
+        for(auto& p: fs::directory_iterator("../files")){   //itero sui file nella cartella files per i produttori
+            //count_row.store(0);
+            std::string nameFile = p.path().filename(); //salvo il nome del file per metterlo eventualmente nella struttura
+            std::ifstream ifs(p.path());    //apro il file
+            std::cout << p.path() << std::endl;
+            if(!ifs.is_open()){
+                std::cout<<"unable to open file"<<std::endl;
+            }
+            //creo il thread che si occuperà di leggere per riga il file e salvarlo nei jobs
+
 
             while(getline(ifs, line)){
-                    int idx = count++;  //conteggio di riga
-                    riga row;
-                    row.n_riga=idx;
-                    row.nameFile=nameFile;
-                    row.row=line;
-                    jobs.put(row);
-                }
-                myout("producer of file " + nameFile + " terminated");
-           // });
+                int idx = count++;  //conteggio di riga
+                riga row;
+                row.n_riga=idx;
+                row.nameFile=nameFile;
+                row.row=line;
+                jobs.put(row);
+            }
+            myout("producer of file " + nameFile + " terminated");
+
         //t.join();
-    }
+        };
+
+    });
 
     for(int i=0; i<10; i++){
         consumers.push_back(std::thread([&jobs, &count, i](){
@@ -134,7 +137,7 @@ int main() {
     for (auto &p: producers) {
         if(p.joinable()) p.join();
     }*/
-
+    producer.join();
     myout("producer terminati");
     jobs.ended();
 

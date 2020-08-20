@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Scrivania/esercitazione4/jobs.h
+/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/jobs.h
 queue
 -
 mutex
@@ -16,7 +16,7 @@ condition_variable
 optional
 -
 
-/home/ubuntu/Scrivania/esercitazione4/main.cpp
+/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/main.cpp
 iostream
 -
 thread
@@ -40,5 +40,5 @@ fstream
 regex
 -
 jobs.h
-/home/ubuntu/Scrivania/esercitazione4/jobs.h
+/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/jobs.h
 

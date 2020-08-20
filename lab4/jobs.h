@@ -24,15 +24,16 @@ public:
     //inserisce un job in coda in attesa di essere processato, può essere bloccante se la coda dei job è piena
     void put(T job){
         //versione prof
-        std::lock_guard _g(qm);
-        jobs.push(job);
-        not_empty.notify_one();
-
-        //versione mia
-        /*std::unique_lock lock(qm);
-        full.wait(lock, [this](){ return this->jobs.size()< 100;});
+        /*std::lock_guard _g(qm);
         jobs.push(job);
         not_empty.notify_one();*/
+
+        //versione mia, usa una cv che controlla se jobs contiene già 10 righe, nel caso aspetta che un consumer ne elabori almeno una e segnali che
+            // possono esserne aggiunte altre
+        std::unique_lock lock(qm);
+        full.wait(lock, [this](){ return this->jobs.size()< 10;});
+        jobs.push(job);
+        not_empty.notify_one();
 
     }
 
