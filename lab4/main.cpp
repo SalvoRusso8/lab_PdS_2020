@@ -43,11 +43,75 @@ int main() {
     std::vector<int> results(N);
     std::atomic<int> count(0);
 
-    Jobs<riga> jobs;
+    //Jobs<riga> jobs;
     //std::atomic<int> count_row(0);
 
-    std::vector<std::thread> producers;
+    Jobs<std::string> fileJobs;
+    Jobs<riga> lineJobs;
+    std::vector<std::thread> producersLines;
+    //std::vector<std::thread> producers;
     std::vector<std::thread> consumers;
+
+    std::thread producerFileNames ([&fileJobs](){
+
+        namespace fs = std::filesystem;
+        for(auto& p: fs::directory_iterator("../files")){
+            fileJobs.put(p.path());
+        }
+        myout("Producer of fileNames terminated");
+    });
+
+    //producers che leggono i file
+    for(int i=0; i<10; i++){
+        producersLines.push_back(std::thread ([&fileJobs, &lineJobs, i](){
+            int count;
+            std::string line;
+            while(true){
+                std::optional<std::string>  idx = fileJobs.get(0);
+                if(idx.has_value()){
+                    std::ifstream ifs(static_cast<const std::basic_ifstream<char>>(idx.value()));
+                    if(!ifs.is_open()){
+                        std::cout<<"unable to open file"<<std::endl;
+                    }
+                    while(getline(ifs, line)){
+                        riga row;
+                        row.n_riga=count++;
+                        row.nameFile=idx.value();
+                        row.row=line;
+                        lineJobs.put(row);
+                    }
+                    myout("ProducerLines " + std::to_string(i) + " finished file " + idx.value());
+                } else {
+                    myout("ProducerLines " + std::to_string(i) + " terminated");
+                    break;
+                }
+            }
+        }));
+    }
+
+    // consumers che leggono le righe
+    for(int i=0; i<10; i++){
+        consumers.push_back(std::thread([&lineJobs, &count, i](){
+            while(true){
+                std::optional<riga>  idx = lineJobs.get(0);
+                std::regex e("vita");
+                std::match_results< std::string::const_iterator > mr;
+                if(idx.has_value()){
+                    if(std::regex_search(idx->row,mr,e)){
+                        //std::cout <<"match trovato" <<std::endl;
+                        count.fetch_add(1);
+                        myout("consumer " + std::to_string(i) + " has found match 'vita' in file " + idx->nameFile + " at row " +
+                              std::to_string(idx->n_riga));
+                    }
+                } else {
+                    myout("consumer " + std::to_string(i) + " terminated");
+                    break;
+                }
+            }
+        }));
+    }
+
+    /*
     std::thread producer ([&jobs](){
         int count=0;
         std::string line;
@@ -79,11 +143,12 @@ int main() {
 
     });
 
+
     for(int i=0; i<10; i++){
         consumers.push_back(std::thread([&jobs, &count, i](){
             while(true){
                 std::optional<riga>  idx = jobs.get(0);
-                //myout("analizzo riga " + idx->row + " del file " + idx->nameFile + " at row n. ");*/
+                //myout("analizzo riga " + idx->row + " del file " + idx->nameFile + " at row n. ");
                 std::regex e("vita");
                 std::match_results< std::string::const_iterator > mr;
                 if(idx.has_value()){
@@ -101,7 +166,7 @@ int main() {
             }
         }));
     }
-
+    */
 
 
 
@@ -133,21 +198,23 @@ int main() {
             }
         }));
     }
+    */
 
-    for (auto &p: producers) {
+    producerFileNames.join();
+    fileJobs.ended();
+    for (auto &p: producersLines) {
         if(p.joinable()) p.join();
-    }*/
-    producer.join();
+    }
     myout("producer terminati");
-    jobs.ended();
+    lineJobs.ended();
 
-    myout("in attesa consumer, job ancora aperti: " + std::to_string(jobs.size()));
+    myout("in attesa consumer, job ancora aperti: " + std::to_string(lineJobs.size()));
 
     for (auto &c: consumers) {
         if(c.joinable()) c.join();
     }
 
-    myout("consumer terminati job ancora aperti: " + std::to_string(jobs.size()));
+    myout("consumer terminati job ancora aperti: " + std::to_string(lineJobs.size()));
     std::cout << "totale " << count<< std::endl;
     myout("verifica risultati " + count.load());
 /*
