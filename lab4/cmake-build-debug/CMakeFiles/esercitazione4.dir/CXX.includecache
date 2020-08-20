@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Scrivania/esercitazione4/jobs.h
+queue
+-
+mutex
+-
+condition_variable
+-
+optional
+-
+
+/home/ubuntu/Scrivania/esercitazione4/main.cpp
+iostream
+-
+thread
+-
+optional
+-
+vector
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+atomic
+-
+filesystem
+-
+fstream
+-
+regex
+-
+jobs.h
+/home/ubuntu/Scrivania/esercitazione4/jobs.h
+
