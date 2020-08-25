@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/05_07_2011.dir/main.cpp.o  -o 05_07_2011 

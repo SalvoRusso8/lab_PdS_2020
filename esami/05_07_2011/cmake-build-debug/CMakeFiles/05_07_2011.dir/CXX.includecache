@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Scrivania/esami_pds/05_07_2011/main.cpp
+iostream
+-
+fstream
+-
+condition_variable
+-
+thread
+-
+optional
+-
+

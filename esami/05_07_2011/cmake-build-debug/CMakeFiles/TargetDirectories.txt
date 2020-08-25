@@ -1,0 +1,3 @@
+/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/CMakeFiles/05_07_2011.dir

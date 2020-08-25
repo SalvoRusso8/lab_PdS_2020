@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae41a5a-1af8-4083-9ab5-a875986c4853" name="Default Changelist" comment="" />
+    <list default="true" id="d214e142-8986-4250-a695-bcfcf7d4cba5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1gaHbTW4U71czkZVG75tUdUQorY" />
+  <component name="ProjectId" id="1gb040XmhLKsw8nohmQDuyrYwGe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,12 +32,12 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="05_07_2011" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="f1.txt f2.txt out.txt" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_07_2011" TARGET_NAME="05_07_2011" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_07_2011" RUN_TARGET_NAME="05_07_2011">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="05_07_2011" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="f1.txt f2.txt out.txt" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="05_07_2011" TARGET_NAME="05_07_2011" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="05_07_2011" RUN_TARGET_NAME="05_07_2011">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -51,13 +51,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dae41a5a-1af8-4083-9ab5-a875986c4853" name="Default Changelist" comment="" />
-      <created>1598345854670</created>
+      <changelist id="d214e142-8986-4250-a695-bcfcf7d4cba5" name="Default Changelist" comment="" />
+      <created>1598367789621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598345854670</updated>
-      <workItem from="1598345856375" duration="11276000" />
-      <workItem from="1598363963623" duration="3246000" />
+      <updated>1598367789621</updated>
+      <workItem from="1598367790856" duration="216000" />
     </task>
     <servers />
   </component>
@@ -65,41 +64,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="213" width="732" height="644" key="#Inspections" timestamp="1598362381165">
+    <state x="410" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598368006073">
       <screen x="72" y="27" width="1760" height="1009" />
     </state>
-    <state x="141" y="213" width="732" height="644" key="#Inspections/72.27.1760.1009@72.27.1760.1009" timestamp="1598362381165" />
-    <state width="1714" height="302" key="GridCell.Tab.0.bottom" timestamp="1598367149410">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="302" key="GridCell.Tab.0.bottom/72.27.1760.1009@72.27.1760.1009" timestamp="1598367149410" />
-    <state width="1714" height="302" key="GridCell.Tab.0.center" timestamp="1598367149409">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="302" key="GridCell.Tab.0.center/72.27.1760.1009@72.27.1760.1009" timestamp="1598367149409" />
-    <state width="1714" height="302" key="GridCell.Tab.0.left" timestamp="1598367149408">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="302" key="GridCell.Tab.0.left/72.27.1760.1009@72.27.1760.1009" timestamp="1598367149408" />
-    <state width="1714" height="302" key="GridCell.Tab.0.right" timestamp="1598367149410">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="302" key="GridCell.Tab.0.right/72.27.1760.1009@72.27.1760.1009" timestamp="1598367149410" />
-    <state width="1714" height="334" key="GridCell.Tab.1.bottom" timestamp="1598366889156">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="334" key="GridCell.Tab.1.bottom/72.27.1760.1009@72.27.1760.1009" timestamp="1598366889156" />
-    <state width="1714" height="334" key="GridCell.Tab.1.center" timestamp="1598366889155">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="334" key="GridCell.Tab.1.center/72.27.1760.1009@72.27.1760.1009" timestamp="1598366889155" />
-    <state width="1714" height="334" key="GridCell.Tab.1.left" timestamp="1598366889154">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="334" key="GridCell.Tab.1.left/72.27.1760.1009@72.27.1760.1009" timestamp="1598366889154" />
-    <state width="1714" height="334" key="GridCell.Tab.1.right" timestamp="1598366889155">
-      <screen x="72" y="27" width="1760" height="1009" />
-    </state>
-    <state width="1714" height="334" key="GridCell.Tab.1.right/72.27.1760.1009@72.27.1760.1009" timestamp="1598366889155" />
+    <state x="410" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1760.1009@72.27.1760.1009" timestamp="1598368006073" />
   </component>
 </project>
