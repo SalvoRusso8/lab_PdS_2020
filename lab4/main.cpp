@@ -46,6 +46,8 @@ int main() {
     //Jobs<riga> jobs;
     //std::atomic<int> count_row(0);
 
+
+
     Jobs<std::string> fileJobs;
     Jobs<riga> lineJobs;
     std::vector<std::thread> producersLines;

@@ -14,9 +14,3 @@ B
 A
 B
 A
-B
-B
-B
-A
-B
-A

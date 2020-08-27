@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/Scrivania/esami_pds/05_07_2011/main.cpp" "/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/CMakeFiles/05_07_2011.dir/main.cpp.o"
+  "/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/main.cpp" "/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/CMakeFiles/05_07_2011.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -8,84 +8,80 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="05_07_2011">
-				<Option output="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/05_07_2011" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug"/>
+				<Option output="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/05_07_2011" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_07_2011"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_07_2011"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="05_07_2011/fast">
-				<Option output="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/05_07_2011" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug"/>
+				<Option output="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/05_07_2011" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_07_2011/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/Scrivania/esami_pds/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_07_2011/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ubuntu/Scrivania/esami_pds/05_07_2011/main.cpp">
+		<Unit filename="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/main.cpp">
 			<Option target="05_07_2011"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/Scrivania/esami_pds/05_07_2011/CMakeLists.txt">
+		<Unit filename="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,3 +1,3 @@
-/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Scrivania/git/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/esercitazione4.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab4/cmake-build-debug/CMakeFiles/esercitazione4.dir

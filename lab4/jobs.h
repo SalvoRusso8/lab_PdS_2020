@@ -20,6 +20,8 @@ class Jobs {
     std::condition_variable not_empty;
     std::condition_variable full;
 
+
+
 public:
     //inserisce un job in coda in attesa di essere processato, può essere bloccante se la coda dei job è piena
     void put(T job){

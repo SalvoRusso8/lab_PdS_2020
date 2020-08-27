@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Scrivania/esami_pds/05_07_2011/main.cpp
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/05_07_2011/main.cpp
 iostream
 -
 fstream

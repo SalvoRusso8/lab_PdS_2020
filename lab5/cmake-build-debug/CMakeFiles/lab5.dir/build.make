@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ubuntu/clion-2020.1.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/ubuntu/clion-2020.1.1/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5
+CMAKE_SOURCE_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab5.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/lab5.dir/flags.make
 
 CMakeFiles/lab5.dir/main.cpp.o: CMakeFiles/lab5.dir/flags.make
 CMakeFiles/lab5.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab5.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/main.cpp.o -c /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab5.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/main.cpp.o -c /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/main.cpp
 
 CMakeFiles/lab5.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab5.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/main.cpp > CMakeFiles/lab5.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/main.cpp > CMakeFiles/lab5.dir/main.cpp.i
 
 CMakeFiles/lab5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/main.cpp -o CMakeFiles/lab5.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/main.cpp -o CMakeFiles/lab5.dir/main.cpp.s
 
 CMakeFiles/lab5.dir/ClientConn.cpp.o: CMakeFiles/lab5.dir/flags.make
 CMakeFiles/lab5.dir/ClientConn.cpp.o: ../ClientConn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab5.dir/ClientConn.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/ClientConn.cpp.o -c /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ClientConn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab5.dir/ClientConn.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/ClientConn.cpp.o -c /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ClientConn.cpp
 
 CMakeFiles/lab5.dir/ClientConn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab5.dir/ClientConn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ClientConn.cpp > CMakeFiles/lab5.dir/ClientConn.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ClientConn.cpp > CMakeFiles/lab5.dir/ClientConn.cpp.i
 
 CMakeFiles/lab5.dir/ClientConn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/ClientConn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ClientConn.cpp -o CMakeFiles/lab5.dir/ClientConn.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ClientConn.cpp -o CMakeFiles/lab5.dir/ClientConn.cpp.s
 
 CMakeFiles/lab5.dir/ChatServer.cpp.o: CMakeFiles/lab5.dir/flags.make
 CMakeFiles/lab5.dir/ChatServer.cpp.o: ../ChatServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab5.dir/ChatServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/ChatServer.cpp.o -c /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ChatServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab5.dir/ChatServer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab5.dir/ChatServer.cpp.o -c /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ChatServer.cpp
 
 CMakeFiles/lab5.dir/ChatServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab5.dir/ChatServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ChatServer.cpp > CMakeFiles/lab5.dir/ChatServer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ChatServer.cpp > CMakeFiles/lab5.dir/ChatServer.cpp.i
 
 CMakeFiles/lab5.dir/ChatServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/ChatServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/ChatServer.cpp -o CMakeFiles/lab5.dir/ChatServer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/ChatServer.cpp -o CMakeFiles/lab5.dir/ChatServer.cpp.s
 
 # Object files for target lab5
 lab5_OBJECTS = \
@@ -130,7 +130,7 @@ lab5: CMakeFiles/lab5.dir/ClientConn.cpp.o
 lab5: CMakeFiles/lab5.dir/ChatServer.cpp.o
 lab5: CMakeFiles/lab5.dir/build.make
 lab5: CMakeFiles/lab5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/lab5.dir/clean:
 .PHONY : CMakeFiles/lab5.dir/clean
 
 CMakeFiles/lab5.dir/depend:
-	cd /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5 /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5 /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug /home/ubuntu/Scrivania/git/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles/lab5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5 /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5 /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/lab5/cmake-build-debug/CMakeFiles/lab5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab5.dir/depend
 
