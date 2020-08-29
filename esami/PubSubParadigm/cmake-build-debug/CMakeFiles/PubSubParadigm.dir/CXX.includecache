@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/CLionProjects/PubSubParadigm/PubSubHub.h
+stdio.h
+-
+string
+-
+thread
+-
+condition_variable
+-
+mutex
+-
+iostream
+-
+Subscription.h
+/Users/giuliodegiorgi/CLionProjects/PubSubParadigm/Subscription.h
+
+/Users/giuliodegiorgi/CLionProjects/PubSubParadigm/Subscription.h
+string
+-
+queue
+-
+thread
+-
+map
+-
+
+/Users/giuliodegiorgi/CLionProjects/PubSubParadigm/main.cpp
+iostream
+-
+string
+-
+PubSubHub.h
+/Users/giuliodegiorgi/CLionProjects/PubSubParadigm/PubSubHub.h
+

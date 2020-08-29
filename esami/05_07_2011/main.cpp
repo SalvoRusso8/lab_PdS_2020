@@ -1,4 +1,5 @@
-/* Si scriva un programma concorrente che, basandosi sull'algoritmo di fusione, generi un file di stringhe ordinate a
+/* Si scriva un programma concorrente che, basandosi sull'algoritmo di fusione, generi un file di
+ * stringhe ordinate a
  * partire da due file di stringhe ordinate, secondo le seguenti specifiche. Il programma riceve il nome di tre file
  * sulla riga di comando. I primi due file sono di ingresso al programma: essi contengono un numero di stringhe
  * indefinito di lunghezza massima uguale a 50 caratteri, disposte in ragione di una stringa su ciascuna riga. Il
