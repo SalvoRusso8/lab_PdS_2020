@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/CLionProjects/gioco/Challenge.h
+iostream
+-
+mutex
+-
+thread
+-
+condition_variable
+-
+
+/Users/giuliodegiorgi/CLionProjects/gioco/main.cpp
+iostream
+-
+Challenge.h
+/Users/giuliodegiorgi/CLionProjects/gioco/Challenge.h
+
