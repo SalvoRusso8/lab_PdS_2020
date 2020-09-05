@@ -88,6 +88,7 @@ public:
         cv.wait(l, [this](){return (this->response && this->score1 >=0 && this->score2 >=0) ||
                 (this->accepted && !this->response);});
         if(!this->response) return -1;
+        std::cout <<"\tScore: "<<score1<<"-"<<score2<<std::endl;
         if(this->score1>this->score2) return 1;
         if(this->score2>this->score1) return 2;
         else return 0;

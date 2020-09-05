@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gioco">
-				<Option output="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/gioco" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug"/>
+				<Option output="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/gioco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gioco"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gioco"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gioco/fast">
-				<Option output="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/gioco" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug"/>
+				<Option output="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/gioco" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,20 +71,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gioco/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 gioco/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/giuliodegiorgi/CLionProjects/gioco/Challenge.h">
+		<Unit filename="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/Challenge.h">
 			<Option target="gioco"/>
 		</Unit>
-		<Unit filename="/Users/giuliodegiorgi/CLionProjects/gioco/main.cpp">
+		<Unit filename="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/main.cpp">
 			<Option target="gioco"/>
 		</Unit>
-		<Unit filename="/Users/giuliodegiorgi/CLionProjects/gioco/CMakeLists.txt">
+		<Unit filename="/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

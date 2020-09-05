@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/giuliodegiorgi/CLionProjects/gioco/main.cpp" "/Users/giuliodegiorgi/CLionProjects/gioco/cmake-build-debug/CMakeFiles/gioco.dir/main.cpp.o"
+  "/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/main.cpp" "/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/cmake-build-debug/CMakeFiles/gioco.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

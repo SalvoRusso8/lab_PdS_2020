@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/giuliodegiorgi/CLionProjects/gioco/Challenge.h
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/Challenge.h
 iostream
 -
 mutex
@@ -16,9 +16,11 @@ thread
 condition_variable
 -
 
-/Users/giuliodegiorgi/CLionProjects/gioco/main.cpp
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/main.cpp
 iostream
 -
+future
+-
 Challenge.h
-/Users/giuliodegiorgi/CLionProjects/gioco/Challenge.h
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/gioco/Challenge.h
 
