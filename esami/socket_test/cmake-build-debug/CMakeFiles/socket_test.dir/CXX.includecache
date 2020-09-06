@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/CLionProjects/socket_test/main.cpp
+iostream
+-
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+shared_mutex
+-
+thread
+-
+vector
+-
+
