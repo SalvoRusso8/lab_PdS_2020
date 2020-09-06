@@ -5,7 +5,8 @@
 #include <shared_mutex>
 #include <thread>
 #include <vector>
-
+#include <mutex>
+#include <condition_variable>
 
 class Socket {
     int sockfd;
@@ -118,7 +119,15 @@ int main() {
         struct sockaddr_in addr;
         socklen_t len=sizeof(addr);
         Socket s=server.accept(&addr, &len);
-        v.push_back(std::thread(f, std::move(s)));
+        v.push_back(std::thread(f, std::move(s))); // <---- con il threadpool sostitueremo questa cosa qui
+        /*
+         * 0 - i thread aspettano sulla coda
+         * 1 - creazione packaged task con dentro f
+         * 2 - aggiungo alla coda il pt appena creato (submit?)
+         * 3 - un thread si sveglia e prende il packaged task
+         * 4 - il thread che ha preso il pt - se ce n'è uno  che l'ha preso - inizia ad eseguire
+         * 5 - finita l'esecuzione, si rimette in attesa sulla coda
+         * */
 
     }
     for(i=0; i<2; i++) {
