@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/CLionProjects/clienttest/main.cpp
+iostream
+-
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+vector
+-
+mutex
+-
+
