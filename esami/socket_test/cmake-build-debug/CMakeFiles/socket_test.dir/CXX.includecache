@@ -15,10 +15,18 @@ unistd.h
 -
 arpa/inet.h
 -
-shared_mutex
--
 thread
 -
 vector
+-
+functional
+-
+mutex
+-
+future
+-
+queue
+-
+map
 -
 
