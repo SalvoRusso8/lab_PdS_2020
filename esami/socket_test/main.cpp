@@ -83,13 +83,13 @@ public:
         std::cout <<"Destroying server socket "<<sockfd<<" @"<< this<<std::endl;
         ::close(sockfd);}
 
-    int accept(struct sockaddr_in* addr, socklen_t* len){
+    Socket accept(struct sockaddr_in* addr, socklen_t* len){
         std::cout<<"Accepting..."<<std::endl;
         int fd=::accept(sockfd, (struct sockaddr*) &addr, len);
         std::cout << "Accepted socket: "<<fd << "..."<<std::endl;
         if (fd<0)
             throw std::runtime_error(strerror(errno));
-        return fd;
+        return Socket(fd);
     }
 
 
@@ -168,7 +168,7 @@ int main() {
     for(i=0; i<2;i++) {
         struct sockaddr_in addr;
         socklen_t len=sizeof(addr);
-        int fd= server.accept(&addr, &len);
+        Socket s= server.accept(&addr, &len);
 
         //std::packaged_task<void(Socket)> p(f);
 
@@ -190,11 +190,9 @@ int main() {
         )});*/
 
 
-        v.push_back(std::thread([&fd](){
+        v.push_back(std::thread([s=std::move(s)]() mutable{
                                     char buf[1024];
                                     while(true) {
-
-                                        Socket s(fd);
                                         ssize_t read_size=s.read(buf, sizeof(buf)-1,0);
                                         buf[read_size]='\0';
                                         std::cout<<"Client said: \n\t" << buf << "\t\tsize=" << read_size<< std::endl;
