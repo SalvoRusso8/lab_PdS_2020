@@ -1,4 +1,4 @@
-# Install script for directory: /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test
+# Install script for directory: /Users/giuliodegiorgi/CLionProjects/executor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

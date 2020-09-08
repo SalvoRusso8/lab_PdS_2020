@@ -14,6 +14,7 @@ class Socket {
     int sockfd;
     Socket(const Socket&)=delete;
     Socket& operator=(const Socket&)=delete;
+    std::mutex m;
 
 public:
     Socket(int sockfd): sockfd(sockfd){}
@@ -26,10 +27,13 @@ public:
     }
 
     Socket (Socket&& other):sockfd(other.sockfd){
+        std::lock_guard l(m);
         other.sockfd = 0;
     }
 
     virtual ~Socket(){
+        std::unique_lock l(m);
+        std::cout << "Sono il distruttore -> "<<sockfd<<"@"<<this<<std::endl;
         if(sockfd!=0) {
             ::close(sockfd);
             std::cout << "Destroying socket " << sockfd << " @" << this << std::endl;
@@ -56,6 +60,7 @@ public:
         return res;
 
     }
+    int getfd(){ return sockfd;}
 
     friend class ServerSocket;
 };
@@ -80,8 +85,10 @@ public:
     }
 
     ~ServerSocket(){
+        std::unique_lock l(m);
         std::cout <<"Destroying server socket "<<sockfd<<" @"<< this<<std::endl;
-        ::close(sockfd);}
+        ::close(sockfd);
+    }
 
     Socket accept(struct sockaddr_in* addr, socklen_t* len){
         std::cout<<"Accepting..."<<std::endl;
@@ -91,6 +98,8 @@ public:
             throw std::runtime_error(strerror(errno));
         return Socket(fd);
     }
+
+
 
 
 
@@ -112,19 +121,70 @@ void f(Socket s){
     std::cout<<"Exiting..."<<std::endl;
 }
 
-/*
-class threadpool {
+class Threadpool {
     std::vector<std::thread> v;
-    std::queue<std::packaged_task<void(Socket)>> pool;
+    std::queue<std::packaged_task<void()>> pool;
     std::mutex m;
     std::condition_variable cv;
 
+public:
 
-    void submit(std::function<void(Socket)> f, Socket s){
-        std::packaged_task<void(Socket)> p([&s](){
+    Threadpool(){
+        startloop();
+    }
+
+    void submit(std::packaged_task<void()> p){
+        std::lock_guard l(m);
+        pool.emplace(std::move(p));
+        std::cout<<"metto il packaged task nella coda"<<std::endl;
+        cv.notify_one();
+    }
+
+    void startloop(){
+        for (int i=0; i<10; i++) {
+            v.emplace_back((std::thread([this](){
+                while(true){
+                    std::packaged_task<void()> tmp;
+                    {
+                        std::unique_lock l(m);
+                        cv.wait(l, [this]() { return !this->pool.empty(); });
+                        std::cout << "Il pollo è grande: "<<pool.size()<<std::endl;
+                        tmp=std::move(pool.front());
+                        std::cout<<"prendo il packaged task dall coda"<<std::endl;
+                        pool.pop();
+                        std::cout<<"poppato"<<std::endl;
+                    }
+                    std::cout<<"sto per runnare"<<std::endl;
+                    tmp();
+                    std::cout<<"runno il tmp"<<std::endl;
+                }
+            })));
+        }
+    }
+
+};
+
+
+int main() {
+    try {
+        ServerSocket server(1234);
+
+    int i;
+    std::vector<std::thread> v;
+
+    for(i=0; i<3;i++) {
+        std::cout<<"\tIterazione #"<<i+1<<std::endl;
+        struct sockaddr_in addr;
+        socklen_t len=sizeof(addr);
+        Socket s= server.accept(&addr, &len);
+
+
+        Threadpool tp;
+        std::cout<<"sto per submittare il packaged task"<<std::endl;
+        std::packaged_task<void()> p([s=std::move(s)]() mutable {
             char buf[1024];
             while(true) {
-
+                std::cout<<"sono vivo fragola, il socket e': "<<s.getfd() << std::endl;
                 ssize_t read_size=s.read(buf, sizeof(buf)-1,0);
                 buf[read_size]='\0';
                 std::cout<<"Client said: \n\t" << buf << "\t\tsize=" << read_size<< std::endl;
@@ -135,92 +195,24 @@ class threadpool {
                 if(strcmp(buf, "exit\n")==0) break;
             }
             std::cout<<"Exiting..."<<std::endl;
-
         });
-        std::lock_guard l(m);
-        pool.emplace(p);
-    }
 
-    void startloop(){
-        for (int i=0; i<10; i++) {
-            v.emplace_back((std::thread([this](){
-                while(true){
-                    std::unique_lock l(m);
-                    cv.wait(l, [this](){return !this->pool.empty();});
-                    std::packaged_task<void(Socket)> tmp(std::move(pool.front()));
-                    pool.pop();
-                    //tmp(Socket);
-
-                }
-            })));
-        }
-    }
-
-};
-*/
-
-int main() {
-    ServerSocket server(5000);
-    int i;
-    std::vector<std::thread> v;
-    //std::map<Socket, std::thread> v;
-
-    for(i=0; i<2;i++) {
-        struct sockaddr_in addr;
-        socklen_t len=sizeof(addr);
-        Socket s= server.accept(&addr, &len);
-
-        //std::packaged_task<void(Socket)> p(f);
-
-        /*v.insert({std::move(s), std::thread([&s](){
-                                    char buf[1024];
-                                    while(true) {
-
-                                        ssize_t read_size=s.read(buf, sizeof(buf)-1,0);
-                                        buf[read_size]='\0';
-                                        std::cout<<"Client said: \n\t" << buf << "\t\tsize=" << read_size<< std::endl;
-                                        std::string str(buf);
-
-                                        ssize_t write_size=s.write(const_cast<char *>(str.c_str()), str.length(), 0);
-                                        std::cout<<"Server replied: \n\t" << buf << "\t\tsize=" << write_size<< std::endl;
-                                        if(strcmp(buf, "exit\n")==0) break;
-                                    }
-                                    std::cout<<"Exiting..."<<std::endl;
-                                }
-        )});*/
-
-
-        v.push_back(std::thread([s=std::move(s)]() mutable{
-                                    char buf[1024];
-                                    while(true) {
-                                        ssize_t read_size=s.read(buf, sizeof(buf)-1,0);
-                                        buf[read_size]='\0';
-                                        std::cout<<"Client said: \n\t" << buf << "\t\tsize=" << read_size<< std::endl;
-                                        std::string str(buf);
-
-                                        ssize_t write_size=s.write(const_cast<char *>(str.c_str()), str.length(), 0);
-                                        std::cout<<"Server replied: \n\t" << buf << "\t\tsize=" << write_size<< std::endl;
-                                        if(strcmp(buf, "exit\n")==0) break;
-                                    }
-                                    std::cout<<"Exiting..."<<std::endl;
-                                }
-        )); // <---- con il threadpool sostitueremo questa cosa qui
-        /*
-         * 0 - i thread aspettano sulla coda
-         * 1 - creazione packaged task con dentro f
-         * 2 - aggiungo alla coda il pt appena creato (submit?)
-         * 3 - un thread si sveglia e prende il packaged task
-         * 4 - il thread che ha preso il pt - se ce n'è uno  che l'ha preso - inizia ad eseguire
-         * 5 - finita l'esecuzione, si rimette in attesa sulla coda
-         * */
-
+        tp.submit(std::move(p));
+        std::cout<<"ho submittato il packaged task #"<<i+1<<std::endl;
+        std::cout<<"Il socket e':"<< s.getfd()<<std::endl;
     }
 
 
-    for(i=0; i<2; i++) {
+    for(i=0; i<3; i++) {
         if(v.at(i).joinable())
             v.at(i).join();
     }
+
+    }
+    catch (std::exception const& e) {
+        std::cout<<"oh shit"<<e.what()<<std::endl;
+    }
+
 
 
 

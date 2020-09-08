@@ -1,3 +1,3 @@
-/Users/giuliodegiorgi/CLionProjects/socket_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/giuliodegiorgi/CLionProjects/socket_test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/giuliodegiorgi/CLionProjects/socket_test/cmake-build-debug/CMakeFiles/socket_test.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles/socket_test.dir

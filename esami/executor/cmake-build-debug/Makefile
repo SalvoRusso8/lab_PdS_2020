@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test
+CMAKE_SOURCE_DIR = /Users/giuliodegiorgi/CLionProjects/executor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named socket_test
+# Target rules for targets named executor
 
 # Build rule for target.
-socket_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket_test
-.PHONY : socket_test
+executor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executor
+.PHONY : executor
 
 # fast build rule for target.
-socket_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/build
-.PHONY : socket_test/fast
+executor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/build
+.PHONY : executor/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... socket_test"
+	@echo "... executor"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

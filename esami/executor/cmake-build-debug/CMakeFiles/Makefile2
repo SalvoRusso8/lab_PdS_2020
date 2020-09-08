@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test
+CMAKE_SOURCE_DIR = /Users/giuliodegiorgi/CLionProjects/executor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/socket_test.dir/all
+all: CMakeFiles/executor.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/socket_test.dir/clean
+clean: CMakeFiles/executor.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/socket_test.dir
+# Target rules for target CMakeFiles/executor.dir
 
 # All Build rule for target.
-CMakeFiles/socket_test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target socket_test"
-.PHONY : CMakeFiles/socket_test.dir/all
+CMakeFiles/executor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target executor"
+.PHONY : CMakeFiles/executor.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/socket_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/socket_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/socket_test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/socket_test.dir/rule
+CMakeFiles/executor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/executor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giuliodegiorgi/CLionProjects/executor/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/executor.dir/rule
 
 # Convenience name for target.
-socket_test: CMakeFiles/socket_test.dir/rule
+executor: CMakeFiles/executor.dir/rule
 
-.PHONY : socket_test
+.PHONY : executor
 
 # clean rule for target.
-CMakeFiles/socket_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/clean
-.PHONY : CMakeFiles/socket_test.dir/clean
+CMakeFiles/executor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor.dir/build.make CMakeFiles/executor.dir/clean
+.PHONY : CMakeFiles/executor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
