@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/memory_guard_17/main.cpp
+iostream
+-
+vector
+-
+string
+-
+sstream
+-
+typeinfo
+-
+memory
+-
+algorithm
+-
+future
+-
+chrono
+-
+thread
+-
+memory
+-
+queue
+-
+
