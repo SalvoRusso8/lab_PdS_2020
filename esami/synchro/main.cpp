@@ -41,7 +41,7 @@ class Synchronizer {
 public:
     Synchronizer(std::function<void(float d1, float d2)> process): readyd1(false), readyd2(false),shutdown(false), f(process){
 
-        t=std::thread([this](){
+        /*t=std::thread([this](){
             while (true) {
                 std::unique_lock l(m);
                 cv.wait(l, [this](){return (readyd1 && readyd2) || shutdown;});
@@ -51,7 +51,7 @@ public:
                 readyd2=false;
                 cv.notify_all();
             }
-        });
+        });*/
     }
 
     void end(){
@@ -72,7 +72,12 @@ public:
         cv.wait(l, [this](){return !readyd1;});
         this->d1=d1;
         readyd1=true;
-        cv.notify_all();
+        if(readyd2) {
+            f(this->d1,this->d2);
+            readyd1=false;
+            readyd2=false;
+        } else
+            cv.notify_all();
     }
     void dataFromSecondPort(float d2){
         std::unique_lock l(m);
@@ -80,7 +85,12 @@ public:
         cv.wait(l, [this](){return !readyd2;});
         this->d2=d2;
         readyd2=true;
-        cv.notify_all();
+        if(readyd1) {
+            f(this->d1, this->d2);
+            readyd1 = false;
+            readyd2 = false;
+        } else
+            cv.notify_all();
     }
 
     bool isEnded(){
@@ -102,11 +112,11 @@ int main() {
         s.dataFromFirstPort(rand()%49);
         i--;
         }
-        s.end();
+        //s.end();
     });
 
     std::thread t2([&s](){
-        while (!s.isEnded()) {
+        while (true) {
         sleep(rand()%5);
         s.dataFromSecondPort(rand()%49);
         }
