@@ -1,4 +1,4 @@
-/* Soluzione ufficiale del prof. Malnati: 
+/* Soluzione ufficiale del prof. Malnati:
  * #include <iostream>
 #include <thread>
 #include <mutex>

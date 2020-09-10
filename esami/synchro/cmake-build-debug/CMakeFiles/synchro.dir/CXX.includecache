@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/giuliodegiorgi/Documents/GitHub/lab_PdS_2020/esami/synchro/main.cpp
+iostream
+-
+mutex
+-
+condition_variable
+-
+thread
+-
+zconf.h
+-
+
